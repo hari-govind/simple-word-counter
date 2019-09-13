@@ -5,24 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Word Counter</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="/js/main.js"></script>
 </head>
 <body>
     <div class="container">
         <div id="text">
-            <textarea placeholder="Paste/type your content here to be counted."></textarea>
+            <textarea id="textbox" placeholder="Paste/type your content here to be counted."></textarea>
         </div>
         <div id="details">
             <div>
                 <h1>Words:</h1>
-                <h3 id="#words"></h3>
+                <h2 id="words">0</h3>
             </div>
             <div>
                 <h1>Characters:</h1>
-                <h3 id="#chars"></h3>
+                <h2 id="chars">0</h3>
             </div>
         </div>
         <div id="footer">Simple Word Counter</div>
     </div>
 </body>
+<script src="js/main.js"></script>
 </html>
