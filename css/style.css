@@ -60,6 +60,6 @@ textarea {
     .h1 {
         font-size: medium;
         font-weight:normal;
-        display: inline-block;
+        display: inline;
     }
 }
